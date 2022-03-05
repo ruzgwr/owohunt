@@ -1,0 +1,70 @@
+{
+    "profile_name": {
+        "name": "profile_name",
+        "type": "string",
+        "description": "settings_profile_title",
+        "required": true,
+        "default": "Profile"
+    },
+    "profile_auth_key": {
+        "name": "profile_auth_key",
+        "type": "CONFIRM:etc/confirmations/discord_token.confirm",
+        "description": "auth_key",
+        "required": true,
+        "default": ""
+    },
+    "gem_bot": {
+        "name": "gem_bot",
+        "type": "bool",
+        "description": "gem_bot_description",
+        "required": true,
+        "default": true,
+        "path": "etc.cheat.gem"
+    },
+    "hunt_bot": {
+        "name": "hunt_bot",
+        "type": "bool",
+        "description": "hunt_bot_description",
+        "required": true,
+        "default": true,
+        "path": "etc.cheat.hunt"
+    },
+    "pray_bot": {
+        "name": "pray_bot",
+        "type": "bool",
+        "description": "pray_bot_description",
+        "required": true,
+        "default": true,
+        "path": "etc.cheat.pray"
+    },
+    "autosell_zoo": {
+        "name": "autosell_zoo",
+        "type": "bool",
+        "description": "autosell_zoo_description",
+        "required": true,
+        "default": true,
+        "path": "etc.cheat.zoo"
+    },
+    "auto_use_cases": {
+        "name": "auto_use_cases",
+        "type": "bool",
+        "description": "auto_use_cases_description",
+        "required": true,
+        "default": true,
+        "path": "etc.cheat.caseman"
+    },
+    "autosell_zoo_interval": {
+        "name": "autosell_zoo_interval",
+        "type": "bool",
+        "description": "autosell_zoo_interval_description",
+        "required": true,
+        "default": 1200
+    },
+    "autosell_zoo_amount": {
+        "name": "autosell_zoo_amount",
+        "type": "CONFIRM:etc/confirmations/autosell_zoo_amount.confirm",
+        "description": "autosell_zoo_amount_description",
+        "required": true,
+    "default": 1
+    }
+}
