@@ -1,0 +1,10 @@
+{
+    "token": "def",
+    "channel": "def",
+    "owodmid": "def",
+    "proxy": " def ",
+    "proxy_": {
+        "server": null,
+        "port": null
+    }
+}
