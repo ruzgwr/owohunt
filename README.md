@@ -1,9 +1,3 @@
-    <img src="https://komarev.com/ghpvc/?username=ryuahan&color=blue"/>
-    <img src="https://img.shields.io/npm/dt/instagram-url-downloader.svg?maxAge=3600"/>
-    <img src="https://img.shields.io/badge/Unpacked%20Size-2.21%20MB-brightgreen"/>
-    <img src="https://img.shields.io/npm/v/instagram-url-downloader?label=lasted%20version"/>
-    <img src="https://img.shields.io/npm/l/instagram-url-downloader"/>
-
 
 # OwO Hunt 
 > <font color="red">**How to use ?**</font>
